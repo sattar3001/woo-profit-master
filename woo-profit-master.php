@@ -3,7 +3,7 @@
 Plugin Name: Woo Profit Master
 Description: Calculate daily, weekly, and monthly profit from WooCommerce including purchase cost, failed order charges, and expenses. Tracks capital and shows detailed reports with charts and PDF export.
 Version: 1.0
-Author: Your Name
+Author: Abdus Sattar
 */
 
 if (!defined('ABSPATH')) {
