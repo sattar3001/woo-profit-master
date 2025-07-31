@@ -1,0 +1,45 @@
+#wppt-report-filter {
+    background: #fff;
+    padding: 20px 25px;
+    border: 1px solid #e0e0e0;
+    border-left: 4px solid #2271b1;
+    border-radius: 6px;
+    max-width: 600px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+}
+
+#wppt-report-filter label {
+    font-weight: 600;
+    margin-right: 10px;
+    color: #444;
+    min-width: 100px;
+}
+
+#wppt-report-filter input[type="date"] {
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 180px;
+}
+
+#wppt-report-filter input[type="submit"] {
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #2271b1;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 5px;
+}
+
+#wppt-report-filter input[type="submit"]:hover {
+    background-color: #135e96;
+}
